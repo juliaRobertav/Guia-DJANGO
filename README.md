@@ -1,91 +1,44 @@
-# COMANDOS
+# COMANDOS - GUIA
 
-Certifique-se de criar e ativar um ambiente virtual antes de seguir estas etapas.
+1. Criar um ambiente virtual (venv) e ativá-lo&#x20;
 
+* `python -m venv nomeVenv`
+* `nomeVenv\Scripts\activate`
 
+2. Instalação Django
 
-#### Ambientes Virtuais:
+* `pip install django`
 
-{% embed url="https://docs.python.org/pt-br/3/tutorial/venv.html" %}
+3. Criar o arquivo onde ficará as dependências do projeto
 
-{% embed url="https://docs.python.org/pt-br/3/library/venv.html" %}
+* `requirements.txt`
 
-Caso ainda queira saber mais, vá até a aba <mark style="background-color:red;">VENV</mark>.
+4. Criar arquivo onde irá listar os arquivos que deseja ignorar&#x20;
 
+* `.gitignore`
 
+5. Criar projeto Django
 
-**Passo 1: Instalar o Django**
+* `django-admin startproject nomeProjeto .`&#x20;
+* (" . " serve para não criar outra subpasta)
 
-Para iniciar, você precisa instalar o Django em seu ambiente de desenvolvimento. Você pode fazer isso usando o pip, o gerenciador de pacotes do Python:
+Django Rest Framework
 
-```bash
-pip install django
-```
+6. Instalação
 
-**Passo 2: Criar um novo projeto Django**
+* `pip install djangorestframework`
 
-Agora, você pode criar um novo projeto Django com o seguinte comando:
+7. Registrar
 
-```bash
-django-admin startproject nomedoseuprojeto
-```
+* Vá em `INSTALED APPS` no arquivo `settings.py`&#x20;
+* `'rest_framework'`
 
-Substitua "nomedoseuprojeto" pelo nome que desejar para seu projeto.
+8. Criar Banco de Dados
 
-**Passo 3: Criar um aplicativo Django**
-
-Dentro de um projeto Django, você pode criar vários aplicativos. Cada aplicativo é uma parte modular do seu projeto. Use o seguinte comando para criar um novo aplicativo:
-
-```bash
-cd nomedoseuprojeto
-python manage.py startapp nomedoaplicativo
-```
-
-**Passo 4: Configurar o Banco de Dados**
-
-Django permite que você escolha o banco de dados que deseja usar. O SQLite é o banco de dados padrão para projetos pequenos. Para configurar um banco de dados diferente, você pode modificar as configurações no arquivo `settings.py` do seu projeto.
-
-**Passo 5: Criar o Banco de Dados**
-
-Depois de configurar o banco de dados, você precisa criar as tabelas definidas em seus modelos com o seguinte comando:
-
-```bash
-python manage.py migrate
-```
-
-**Passo 6: Criar um Superusuário**
-
-Para acessar a área de administração do Django, você precisa criar um superusuário com o comando:
-
-```bash
-python manage.py createsuperuser
-```
-
-**Passo 7: Desenvolver suas Modelos e Views**
-
-Agora, você pode começar a criar modelos para seus dados e as views para controlar como os dados são exibidos.
-
-**Passo 8: Criar URLs**
-
-Defina as URLs do seu aplicativo em um arquivo `urls.py` e conecte-as às views correspondentes.
-
-**Passo 9: Criar Templates**
-
-Desenvolva os templates HTML para sua aplicação e defina como os dados são exibidos.
-
-**Passo 10: Executar o Servidor de Desenvolvimento**
-
-Para testar seu projeto, você pode executar o servidor de desenvolvimento com o seguinte comando:
-
-```bash
-python manage.py runserver
-```
-
-Agora, você pode acessar seu projeto em um navegador em `http://127.0.0.1:8000/`.
-
-Este é um guia introdutório para começar com o Django.
-
-Caso queira saber mais, na aba <mark style="background-color:red;">DICAS</mark> contém alguns links com documentações e maiores explicações.
+* `python manage.py migrate`
 
 
 
+* **Comando importante**
+* `python manage.py runserver`
+* Serve para rodar o servidor local e é interessante sempre usar para testar se sua aplicação está funcionando corretamente

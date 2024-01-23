@@ -12,6 +12,8 @@
 
 {% embed url="https://docs.djangoproject.com/pt-br/4.2/" %}
 
+{% embed url="https://www.django-rest-framework.org/" %}
+
 {% embed url="https://django-portuguese.readthedocs.io/en/1.0/intro/tutorial01.html" %}
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Django/Introduction" %}
