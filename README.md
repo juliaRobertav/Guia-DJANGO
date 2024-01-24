@@ -11,7 +11,7 @@
 
 3. Criar o arquivo onde ficará as dependências do projeto
 
-* `requirements.txt`
+* `pip freeze > requirements.txt`
 
 4. Criar arquivo onde irá listar os arquivos que deseja ignorar&#x20;
 
