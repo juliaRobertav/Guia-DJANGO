@@ -21,3 +21,9 @@
 {% embed url="https://dev.to/franciscojdsjr/guia-introdutorio-para-o-django-construindo-aplicacoes-web-em-python-2jk6" %}
 
 {% embed url="https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa" %}
+
+{% embed url="https://cursos.alura.com.br/forum/topico-banco-de-dados-145399" %}
+
+{% embed url="https://www.treinaweb.com.br/blog/compartilhando-rotas-entre-apps-no-django" %}
+
+{% embed url="https://docs.djangoproject.com/pt-br/5.0/topics/cache/" %}
