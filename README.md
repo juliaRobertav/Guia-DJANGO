@@ -22,20 +22,48 @@
 * `django-admin startproject nomeProjeto .`&#x20;
 * (" . " serve para não criar outra subpasta)
 
-Django Rest Framework
+6. Criar app Django (onde estará os modelos, views...)
 
-6. Instalação
+* `django-admin startapp nomeApp`
+* Definir o nome desse app em `settings.py` no `INSTALED_APPS`:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Ainda em `settings.py`:
+* Trocar o idioma e horário
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+* Em `STATIC_URL` acrescentar embaixo:
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Importante dar um `import os` !&#x20;
+
+_Django Rest Framework_
+
+7. Instalação
 
 * `pip install djangorestframework`
 
-7. Registrar
+8. Registrar
 
 * Vá em `INSTALED APPS` no arquivo `settings.py`&#x20;
 * `'rest_framework'`
 
-8. Criar Banco de Dados
+9. Criar Banco de Dados
 
 * `python manage.py migrate`
+
+10. Criar superuser
+
+* `python manage.py  createsuperuser`&#x20;
+* `python manage.py createsuperuser --username admin --email admin@example.com`
+
+_Serializers_
+
+* Criar um arquivo no seu app&#x20;
+* `serializers.py`
 
 
 
