@@ -1,5 +1,7 @@
 # DICAS
 
+{% embed url="https://dev.to/franciscojdsjr/guia-introdutorio-para-o-django-construindo-aplicacoes-web-em-python-2jk6" %}
+
 **Extensão** recomendada: _SQLite Viewer_, com ela é possível analisar e alterar suas tabelas do banco de dados diretamente do VsCode...
 
 {% embed url="https://dev.to/jhonywalkeer/sqlite-acessando-seu-banco-diretamente-do-vscode-4dim" %}
