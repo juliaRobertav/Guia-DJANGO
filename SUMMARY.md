@@ -1,5 +1,5 @@
 # Table of contents
 
 * [COMANDOS - GUIA](README.md)
-* [DICAS](dicas.md)
+* [DICAS-DOCS](dicas-docs.md)
 * [Erros](erros.md)

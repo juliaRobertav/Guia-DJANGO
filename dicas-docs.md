@@ -1,12 +1,18 @@
-# DICAS
+---
+description: Dicas, exemplos e documentações
+---
+
+# DICAS-DOCS
 
 {% embed url="https://dev.to/franciscojdsjr/guia-introdutorio-para-o-django-construindo-aplicacoes-web-em-python-2jk6" %}
+
+{% embed url="https://django-portuguese.readthedocs.io/en/1.0/contents.html" %}
 
 **Extensão** recomendada: _SQLite Viewer_, com ela é possível analisar e alterar suas tabelas do banco de dados diretamente do VsCode...
 
 {% embed url="https://dev.to/jhonywalkeer/sqlite-acessando-seu-banco-diretamente-do-vscode-4dim" %}
 
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% embed url="https://horadecodar.com.br/python/django/" %}
 
