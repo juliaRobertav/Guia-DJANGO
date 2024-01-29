@@ -25,7 +25,7 @@
 * `.gitignore`
 * `Exemplo:`
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Criar projeto Django
 
@@ -35,18 +35,18 @@
 6. Criar app Django (onde estará os modelos, views...)
 
 * `django-admin startapp nomeApp`
-* Definir o nome desse app em `settings.py` no `INSTALED_APPS`:
+* Definir o nome desse app em `settings.py` no `INSTALED_APPS` ('app'):
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * Ainda em `settings.py`:
 * Dê um `import os`
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Trocar o idioma e horário
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Em `STATIC_URL` acrescentar embaixo:
 
@@ -54,21 +54,31 @@
 
 _Django Rest Framework_
 
-7. Instalação
+7. Instalação e Configuração
 
-* `pip install djangorestframework`
-* Lembrete!
+`pip install djangorestframework`
+
+`pip install markdown`
+
+* É utilizado pelo Django Rest Framework para fazer a página de documentação das APIs
+
+`pip install django-filter`
+
+* Facilita a utilização de filtros
+
+<mark style="color:red;">Lembrete!</mark>
+
 * Sempre que instalar algo não esqueça de adicionar aos requirements
-* `pip freeze > requirements.txt`
+
+<mark style="color:red;">`pip freeze > requirements.txt`</mark>
 
 8. Registrar
 
-* Vá em `INSTALED APPS` no arquivo `settings.py`&#x20;
-* `'rest_framework'`
+* Vá em `INSTALED APPS` no arquivo `settings.py` para registrar as instalações:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt="" width="359"><figcaption></figcaption></figure>
 
-9. Criar Banco de Dados
+9. Criar Banco de Dados:
 
 * `python manage.py migrate`
 
@@ -91,6 +101,8 @@ _Models_
 
 * Após isso, use esse comando para registrar também:
 * `python manage.py makemigrations`
+
+
 
 _Serializers_
 
