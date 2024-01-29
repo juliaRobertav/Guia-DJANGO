@@ -78,6 +78,11 @@ _Django Rest Framework_
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="359"><figcaption></figcaption></figure>
 
+* Configurações relaionadas ao Django Rest Framework:
+* `settings.py`
+
+<figure><img src=".gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+
 9. Criar Banco de Dados:
 
 * `python manage.py migrate`
@@ -102,7 +107,23 @@ _Models_
 * Após isso, use esse comando para registrar também:
 * `python manage.py makemigrations`
 
+11. Adicionar URL
 
+* `urls.py`
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+* **Testar:**
+* `python manage.py runserver`
+
+<figure><img src=".gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (16).png" alt="" width="375"><figcaption><p>Redirect padrão do Django</p></figcaption></figure>
+
+* Mesma coisa para logout
+* _**Atualizando a url**_
+
+<figure><img src=".gitbook/assets/image (17).png" alt="" width="506"><figcaption></figcaption></figure>
 
 _Serializers_
 
