@@ -125,8 +125,11 @@ _Models_
 
 <figure><img src=".gitbook/assets/image (17).png" alt="" width="506"><figcaption></figcaption></figure>
 
-_Serializers_
+_Model Serializers_
 
-* Criar um arquivo no seu app&#x20;
-* `serializers.py`
+* Irá "mapear" os models
+* Python -> JSON&#x20;
+* JSON -> Python
+
+
 
