@@ -25,7 +25,7 @@
 * `.gitignore`
 * `Exemplo:`
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Criar projeto Django
 
@@ -42,15 +42,15 @@
 * Ainda em `settings.py`:
 * Dê um `import os`
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Trocar o idioma e horário
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Em `STATIC_URL` acrescentar embaixo:
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Django Rest Framework_
 
@@ -98,7 +98,7 @@ _Models_
 * Um modelo é uma fonte de dados sobre os seus dados, Ele contém os campos e comportamentos essenciais dos dados que você está armazenando. Em geral, cada modelo mapeia para uma única tabela no seu banco de dados.
 * Ficará assim:
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * _Este é um exemplo de um model, após isso é preciso registrá-lo em **admin:**_
 
@@ -133,12 +133,29 @@ _Model Serializers_
 
 Criar arquivo `serializers.py`:
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt="" width="437"><figcaption></figcaption></figure>
 
 * Para ver se está funcionando:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 \-> Importamos o que será necessário, além de buscar o último curso cadastrado e depois ver o que está no serializer em relação a cursos
+
+
+
+_**APIView  -  HTTP GET**_
+
+* `views.py`
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* Para as rotas vamos precisar criar um novo arquivo no nosso app
+* `urls.py`
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+* Nossos **endpoints**:
+
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
