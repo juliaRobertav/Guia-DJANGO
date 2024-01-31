@@ -6,6 +6,8 @@ description: Dicas, exemplos e documentações
 
 {% embed url="https://dev.to/franciscojdsjr/guia-introdutorio-para-o-django-construindo-aplicacoes-web-em-python-2jk6" %}
 
+{% embed url="https://medium.com/django-rest/django-rest-framework-login-and-register-user-fd91cf6029d5" %}
+
 {% embed url="https://django-portuguese.readthedocs.io/en/1.0/contents.html" %}
 
 **Extensão** recomendada: _SQLite Viewer_, com ela é possível analisar e alterar suas tabelas do banco de dados diretamente do VsCode...
