@@ -1,5 +1,23 @@
 # Djoser
 
+
+
+#### <mark style="background-color:green;">JWT & Djoser</mark>
+
+Djoser já possui URLs embutidas para gerenciar a aunteticação JWT, como esses:
+
+```
+/jwt/create/: retorna access_tokens e refresh_tokens quando você passa credenciais de login.
+
+/jwt/refresh/: Use este endpoint para atualizar o JWT.
+
+/jwt/verify/: Use este endpoint para verificar o JWT.
+```
+
+O JWT cuida de toda a lógica
+
+
+
 <mark style="background-color:green;">**Configurações adicionais do Djoser**</mark>
 
 1. **`USER_CREATE_PASSWORD_RETYPE`**:
