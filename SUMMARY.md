@@ -7,3 +7,4 @@
 * [Autenticação](autenticacao/README.md)
   * [Dicas](autenticacao/dicas.md)
   * [Djoser](autenticacao/djoser.md)
+  * [Testes/Pesquisar](autenticacao/testes-pesquisar.md)
