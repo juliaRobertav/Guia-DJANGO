@@ -12,6 +12,12 @@ Djoser já possui URLs embutidas para gerenciar a aunteticação JWT, como esses
 /jwt/refresh/: Use este endpoint para atualizar o JWT.
 
 /jwt/verify/: Use este endpoint para verificar o JWT.
+
+/auth/token/login/
+
+/users/reset_password/
+
+/users/reset_password_confirm/
 ```
 
 O JWT cuida de toda a lógica
