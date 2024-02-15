@@ -9,3 +9,4 @@
   * [Djoser](autenticacao/djoser.md)
   * [Testes/Pesquisar](autenticacao/testes-pesquisar.md)
   * [Cookies](autenticacao/cookies.md)
+  * [Permissoes](autenticacao/permissoes.md)
