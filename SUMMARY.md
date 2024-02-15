@@ -8,3 +8,4 @@
   * [Dicas](autenticacao/dicas.md)
   * [Djoser](autenticacao/djoser.md)
   * [Testes/Pesquisar](autenticacao/testes-pesquisar.md)
+  * [Cookies](autenticacao/cookies.md)
