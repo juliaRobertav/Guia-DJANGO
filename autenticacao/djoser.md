@@ -1,6 +1,6 @@
 # Djoser
 
-
+{% embed url="https://djoser.readthedocs.io/en/latest/jwt_endpoints.html" %}
 
 #### <mark style="background-color:green;">JWT & Djoser</mark>
 
