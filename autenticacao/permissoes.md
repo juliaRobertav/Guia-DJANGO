@@ -4,6 +4,8 @@
 
 {% embed url="https://medium.com/@verasleonardo210/como-utilizar-django-role-permissions-no-seu-projeto-b3461aa263f0" %}
 
+{% embed url="https://medium.com/@jamil.pyhidrodev/permiss%C3%B5es-e-autentica%C3%A7%C3%A3o-em-django-rest-framework-74b20a3c9981" %}
+
 Claro! Vou explicar de uma forma mais detalhada como usar permissões em um exemplo prático com Django, utilizando os modelos de turmas, salas, professores, alunos e diretores que você mencionou.
 
 #### 1. Definir Modelos de Usuário Personalizados:
