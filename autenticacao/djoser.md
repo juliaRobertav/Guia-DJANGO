@@ -2,6 +2,8 @@
 
 {% embed url="https://djoser.readthedocs.io/en/latest/jwt_endpoints.html" %}
 
+{% embed url="https://medium.com/@hellenwain_54279/securing-django-rest-user-apis-with-djoser-273275921343" %}
+
 #### <mark style="background-color:green;">JWT & Djoser</mark>
 
 Djoser já possui URLs embutidas para gerenciar a aunteticação JWT, como esses:
